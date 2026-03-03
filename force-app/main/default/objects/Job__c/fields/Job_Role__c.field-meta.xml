@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Role__c</fullName>
+    <label>Job Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Job_Grade__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finance Director</fullName>
+                <default>false</default>
+                <label>Finance Director</label>
+            </value>
+            <value>
+                <fullName>Sales Director</fullName>
+                <default>false</default>
+                <label>Sales Director</label>
+            </value>
+            <value>
+                <fullName>Operations Director</fullName>
+                <default>false</default>
+                <label>Operations Director</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>VP</fullName>
+                <default>false</default>
+                <label>VP</label>
+            </value>
+            <value>
+                <fullName>AVP</fullName>
+                <default>false</default>
+                <label>AVP</label>
+            </value>
+            <value>
+                <fullName>Salesforce Lead</fullName>
+                <default>false</default>
+                <label>Salesforce Lead</label>
+            </value>
+            <value>
+                <fullName>Java Lead</fullName>
+                <default>false</default>
+                <label>Java Lead</label>
+            </value>
+            <value>
+                <fullName>QA Lead</fullName>
+                <default>false</default>
+                <label>QA Lead</label>
+            </value>
+            <value>
+                <fullName>DevOps lead</fullName>
+                <default>false</default>
+                <label>DevOps lead</label>
+            </value>
+            <value>
+                <fullName>Technical Architect</fullName>
+                <default>false</default>
+                <label>Technical Architect</label>
+            </value>
+            <value>
+                <fullName>Data Security Architect</fullName>
+                <default>false</default>
+                <label>Data Security Architect</label>
+            </value>
+            <value>
+                <fullName>Process Architect</fullName>
+                <default>false</default>
+                <label>Process Architect</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas Department head</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas Department head</label>
+            </value>
+            <value>
+                <fullName>Steel Department head</fullName>
+                <default>false</default>
+                <label>Steel Department head</label>
+            </value>
+            <value>
+                <fullName>Security department head</fullName>
+                <default>false</default>
+                <label>Security department head</label>
+            </value>
+            <value>
+                <fullName>Security IN charge</fullName>
+                <default>false</default>
+                <label>Security IN charge</label>
+            </value>
+            <value>
+                <fullName>Floor IN charge</fullName>
+                <default>false</default>
+                <label>Floor IN charge</label>
+            </value>
+            <value>
+                <fullName>Service IN charge</fullName>
+                <default>false</default>
+                <label>Service IN charge</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Executive</controllingFieldValue>
+            <valueName>CEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive</controllingFieldValue>
+            <valueName>CFO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive</controllingFieldValue>
+            <valueName>VP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manager/Team Lead</controllingFieldValue>
+            <valueName>Salesforce Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manager/Team Lead</controllingFieldValue>
+            <valueName>Java Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manager/Team Lead</controllingFieldValue>
+            <valueName>QA Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manager/Team Lead</controllingFieldValue>
+            <valueName>DevOps lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <valueName>Technical Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <valueName>Data Security Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <valueName>Process Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MD</controllingFieldValue>
+            <valueName>Finance Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MD</controllingFieldValue>
+            <valueName>Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MD</controllingFieldValue>
+            <valueName>Operations Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dept Head</controllingFieldValue>
+            <valueName>Oil &amp; Gas Department head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dept Head</controllingFieldValue>
+            <valueName>Steel Department head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dept Head</controllingFieldValue>
+            <valueName>Security department head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <valueName>Security IN charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <valueName>Floor IN charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <valueName>Service IN charge</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview_ID__c</fullName>
+    <description>A unique identifier to identify the Interview ID</description>
+    <displayFormat>I-{000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Interview ID</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

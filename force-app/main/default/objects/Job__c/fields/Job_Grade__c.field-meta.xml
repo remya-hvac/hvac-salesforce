@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Grade__c</fullName>
+    <label>Job Grade</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Job_Industry__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Executive</fullName>
+                <default>false</default>
+                <label>Executive</label>
+            </value>
+            <value>
+                <fullName>Manager/Team Lead</fullName>
+                <default>false</default>
+                <label>Manager/Team Lead</label>
+            </value>
+            <value>
+                <fullName>Architect</fullName>
+                <default>false</default>
+                <label>Architect</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>MD</label>
+            </value>
+            <value>
+                <fullName>Dept Head</fullName>
+                <default>false</default>
+                <label>Dept Head</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+            <value>
+                <fullName>Territory Manager</fullName>
+                <default>false</default>
+                <label>Territory Manager</label>
+            </value>
+            <value>
+                <fullName>Department head</fullName>
+                <default>false</default>
+                <label>Department head</label>
+            </value>
+            <value>
+                <fullName>Daily labor</fullName>
+                <default>false</default>
+                <label>Daily labor</label>
+            </value>
+            <value>
+                <fullName>Security IN charge</fullName>
+                <default>false</default>
+                <label>Security IN charge</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Telecom</controllingFieldValue>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <controllingFieldValue>Gold Mining</controllingFieldValue>
+            <valueName>Executive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Telecom</controllingFieldValue>
+            <valueName>Manager/Team Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Developer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Dept Head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telecom</controllingFieldValue>
+            <valueName>Territory Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <controllingFieldValue>Gold Mining</controllingFieldValue>
+            <valueName>Department head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <controllingFieldValue>Gold Mining</controllingFieldValue>
+            <valueName>Daily labor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <controllingFieldValue>Gold Mining</controllingFieldValue>
+            <valueName>Security IN charge</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

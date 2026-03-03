@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experience_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL( Type_of_Candidate__c , &apos;Experienced - No break in career&apos;) &amp;&amp;  (Experience__c  &lt; 5 ||  ISBLANK(Experience__c) ))   || (ISPICKVAL( Type_of_Candidate__c , &apos;Experienced - Break career&apos;)  &amp;&amp;  (Experience__c  &lt; 5 ||  ISBLANK(Experience__c) ))</errorConditionFormula>
+    <errorMessage>Experience should be minimum of 5 years.</errorMessage>
+</ValidationRule>

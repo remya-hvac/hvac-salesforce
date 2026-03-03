@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailOrPhone</fullName>
+    <active>true</active>
+    <errorConditionFormula>Contact_Number__c  = null &amp;&amp;  Email_Id__c = null</errorConditionFormula>
+    <errorMessage>Please provide either email or phone</errorMessage>
+</ValidationRule>
