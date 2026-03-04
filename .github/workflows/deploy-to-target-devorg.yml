@@ -3,7 +3,7 @@ name: Deploy to Target Developer Org
 on:
   workflow_dispatch: {}
   push:
-    branches: [ "main" ]
+    branches: [ "module/hvac_master" ]
 
 jobs:
   deploy:
