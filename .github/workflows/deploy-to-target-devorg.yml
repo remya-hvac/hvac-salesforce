@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy metadata
         run: |
-          sf project deploy start --source-dir force-app --test-level NoTestRun
+          sf project deploy start --hvac-salesforce force-app --test-level NoTestRun
