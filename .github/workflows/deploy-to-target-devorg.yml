@@ -1,0 +1,30 @@
+name: Deploy to Target Developer Org
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Salesforce CLI
+        run: |
+          npm install -g @salesforce/cli
+          sf --version
+
+      - name: Authenticate to Target Org (SFDX Auth URL)
+        env:
+          SF_AUTH_URL: ${{ secrets.SF_AUTH_URL }}
+        run: |
+          echo "$SF_AUTH_URL" > authfile.txt
+          sf org login sfdx-url --sfdx-url-file authfile.txt --set-default
+
+      - name: Deploy metadata
+        run: |
+          sf project deploy start --hvac-salesforce force-app --test-level NoTestRun
