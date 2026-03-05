@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HVAC_Assigned_Technician__c</fullName>
+    <label>Assigned Technician</label>
+    <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Installation Jobs</relationshipLabel>
+    <relationshipName>HVAC_Installation_Jobs</relationshipName>
+    <required>false</required>
+</CustomField>
