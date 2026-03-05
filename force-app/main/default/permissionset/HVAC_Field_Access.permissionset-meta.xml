@@ -73,12 +73,6 @@
     </fieldPermissions>
 
     <fieldPermissions>
-        <field>HVAC_Warranty__c.HVAC_Account__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-
-    <fieldPermissions>
         <field>HVAC_Warranty__c.HVAC_Asset__c</field>
         <readable>true</readable>
         <editable>true</editable>
