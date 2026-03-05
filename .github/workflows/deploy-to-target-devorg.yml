@@ -3,7 +3,7 @@ name: Deploy to Target Developer Org
 on:
   workflow_dispatch: {}
   push:
-    branches: [ "main" ]
+    branches: [ "module/hvac_master" ]
 
 jobs:
   deploy:
@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy metadata
         run: |
-          sf project deploy start --hvac-salesforce force-app --test-level NoTestRun
+          sf project deploy start --source-dir force-app --test-level RunLocalTests
