@@ -89,4 +89,10 @@
         <readable>true</readable>
         <editable>false</editable>
     </fieldPermissions>
+
+    <fieldPermissions>
+        <field>HVAC_Warranty__c.HVAC_Installation_Job__c</field>
+        <readable>true</readable>
+        <editable>false</editable>
+    </fieldPermissions>
 </PermissionSet>
